@@ -1,0 +1,647 @@
+body {
+  margin: 0;
+}
+
+#blog-photo{
+    width:100%;
+    height: auto;
+}
+
+li.info {
+  background-color: greenyellow;
+  
+}
+div.messages {
+  background-color: greenyellow;
+}
+
+/* Top Header */
+.top-header .tab {
+  padding-left: 20px;
+}
+.top-header {
+  background-color: #f1f1f1;
+  color: #707070;
+  font-size: 15px;
+}
+
+.top-header i {
+  font-size: 20px;
+}
+
+.top-header .row {
+  padding: 20px;
+  padding-bottom: 0;
+}
+.top-header .row .right-col {
+  float: right;
+}
+
+.right-col input {
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;
+}
+.right-col i {
+  font-size: 17px;
+}
+
+/* Navbar */
+
+.nav-item {
+  padding-right: 7px;
+  color: #4A4A4B;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navbar-nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-item i {
+  color: #707070;
+  font-size: 20px;
+}
+
+.nav-item .btn {
+  border: 1px solid green;
+  color: #707070;
+  border-radius: 50px;
+  width: 118px;
+  font-size: 16px;
+  height: 37px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.nav-item .btn:hover {
+  background-color: green;
+  color: white;
+}
+
+/* banner */
+.banner img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Why choose us */
+
+.choose-us {
+  margin-top: 30px;
+  background-color: #3aa08e;
+  padding: 20px;
+  border-radius: 3px;
+  color: white;
+}
+.choose-us .line {
+  border-top: 3px solid white;
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+/* services */
+
+.services {
+  margin-top: 30px;
+  color: #707070;
+}
+.services .card-text {
+  color: #707070;
+}
+.services .row {
+  margin-top: 30px;
+  justify-content: center;
+}
+.services .row .col-lg-3 .card {
+  box-shadow: 0px 2px 2px 2px grey;
+  margin-top: 10px;
+  padding: 15px;
+  height: 230px;
+}
+.services .row .col-lg-3 .card:hover {
+  background-color: #3aa08e;
+  color: white;
+}
+.services .row .col-lg-3 .card:hover p {
+  color: white;
+}
+
+/* gallery */
+
+.item img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.gallery {
+  background: #ddd;
+}
+.gallery-heading {
+  margin-top: 30px;
+  text-align: center;
+  color: #3aa08e;
+}
+/* contact us banner */
+.choose-us-contact-us {
+  margin-top: 30px;
+  background-color: #3aa08e;
+  padding: 55px;
+  border-radius: 3px;
+  color: white;
+}
+.choose-us-contact-us p {
+  font-weight: 300;
+  line-height: 3.5rem;
+}
+.choose-us-contact-us h1 {
+  padding-bottom: 15px;
+}
+
+.contact-banner {
+  background-image: url("../imgs/Compressed_Cambridge_Mussel_Main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  max-height: 400px;
+}
+.contact-banner-inner {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 400px;
+  max-height: 400px;
+}
+.contact-banner-heading {
+  color: white;
+  margin-top: 60px;
+}
+.contact-banner-heading p {
+  font-size: 18px;
+}
+.contact-banner-heading h1 {
+  font-size: 50px !important;
+}
+.free-call-container {
+  margin-top: 50px;
+  color: #444444;
+}
+.contact-form {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.book-text {
+  color: #444444;
+  line-height: 38px;
+}
+.book-text p {
+  font-size: 20px;
+}
+.free-call-container .free-call-text .col-sm-5 {
+  line-height: 38px;
+  font-size: 20px;
+}
+
+/* Contact Form */
+
+.my-form {
+  background-color: #3aa08e;
+  border-radius: 10px;
+  padding-top: 25px;
+}
+.my-form .container {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  border: 0;
+  background-color: #3aa08e;
+  /*box-shadow: 0px 0px 1px 1px;*/
+}
+
+.my-form input {
+  color: #444444;
+  padding: 15px;
+  margin: 10px;
+  border: 0;
+  border-radius: 40px;
+  width: 95%;
+}
+.my-form textarea {
+  color: #444444;
+  padding: 15px;
+  margin: 10px;
+  border: 0;
+  width: 92%;
+  margin-left: 16px;
+}
+.my-form label {
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 24px;
+}
+.checkbox-row {
+  margin-left: 0;
+  height: 30px;
+}
+.checkbox-row input {
+  height: 24px;
+  margin-top: 0;
+}
+.checkbox-row p {
+  font-size: 23px;
+  color: white;
+  margin-top: -5px;
+  text-align: left;
+}
+.my-form .further-info {
+  font-size: 11px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.my-form .further-info a {
+  color: white;
+  text-decoration: underline;
+}
+.my-form button {
+  border: 0;
+  border-radius: 40px;
+  width: 40%;
+  height: 40px;
+  background-color: #3cc7af;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.my-form button:hover {
+  cursor: pointer;
+}
+.fonts-in-banner i {
+  margin-right: 10px;
+}
+
+/* mobile gallery */
+@media only screen and (max-width: 990px) {
+  .desktop-gallery {
+    display: none;
+    visibility: hidden;
+  }
+  .mobile-gallery-container {
+    display: block;
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .desktop-gallery {
+    display: block;
+    visibility: visible;
+  }
+  .mobile-gallery-container {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.mobile-gallery-container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* signup */
+
+.signup-banner-bg {
+  background-image: url("../imgs/signup_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  padding: 0;
+  margin-bottom: 200px;
+}
+.signup-banner-bg .content {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 500px;
+  width: 100%;
+}
+
+.signup-banner-left-content {
+  color: white;
+  margin-top: 35px;
+}
+.signup-banner-heading {
+  font-size: 60px !important;
+}
+.signup-banner-left-content-list {
+  padding-left: 18px;
+  margin-top: -34px;
+}
+.signup-banner-left-content-list li {
+  padding: 20px 0 10px 40px;
+}
+
+.signup-form {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 1px 0.5px 0.5px grey;
+  margin-top: 35px;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.signup-form input {
+  margin-left: 50px;
+  width: 80%;
+  border-radius: 50px;
+  border: 0;
+  height: 40px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.signup-form label {
+  margin-left: 70px;
+  color: #838381;
+}
+.signup-form input::placeholder {
+  color: #f1f1f1;
+}
+.signup-form button {
+  width: 80%;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+.signup-form p {
+  color: #838381;
+  padding-left: 15px;
+}
+.signup-form a {
+  text-decoration: underline;
+  color: #838381;
+}
+@media only screen and (max-width: 990px) {
+  .signup-banner-right-content {
+    visibility: hidden;
+    display: none;
+  }
+  .mobile-registeration {
+    display: block;
+    visibility: visible;
+  }
+  .signup-banner-bg {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mobile-registeration {
+    display: none;
+    visibility: hidden;
+  }
+  .signup-banner-right-content {
+    visibility: visible;
+    display: block;
+  }
+}
+.mobile-registeration {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.mobile-register-form {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 20px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+.mobile-register-form label {
+  margin-left: 20px;
+}
+.mobile-register-form input {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 50px;
+  height: 35px;
+  padding-left: 10px;
+  width: 90%;
+}
+.mobile-register-form button {
+  margin-left: 15px;
+  width: 90%;
+  border-radius: 50px;
+}
+.mobile-register-form p {
+  margin-left: 25px;
+}
+.mobile-register-form a {
+  color: black;
+  text-decoration: underline;
+}
+
+/* cancellation policy */
+
+.policy {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.policy p {
+  line-height: 30px;
+}
+.disclaimer_list {
+  list-style: lower-alpha;
+}
+.disclaimer_list li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+/* design service */
+.design-banner {
+  background-image: url("../imgs/Brand New Traditional kitchen in Mussel oak cambr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  padding: 0;
+}
+
+.design-benner-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.design-benner-content > h2,
+h3 {
+  font-size: 3rem !important;
+}
+.design-banner-btn {
+  padding-top: 20px;
+}
+.design-banner-btn button {
+  border-radius: 50px;
+  margin-right: 12px;
+  width: fit-content;
+  font-size: 13px;
+  text-align: left;
+  height: 40px;
+  font-weight: bold;
+}
+.design-contact-btn {
+  border-radius: 50px;
+  margin-right: 12px;
+  text-align: left;
+  height: 40px;
+  font-weight: bold;
+}
+.design-banner-btn .video-btn {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+/* our kitchen design paragraph */
+
+.our-kitchens-paragraph {
+  background-color: #e4e4e4;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.our-kitchens-paragraph .container p {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+/* design offer */
+
+.design-offer {
+  background-color: rgb(46, 154, 135);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  color: white;
+}
+.design-offer h5 {
+  padding-left: 21px;
+}
+.design-offer ul li {
+  font-size: 15px;
+  padding: 0;
+}
+
+.design-offer video {
+  border-radius: 5px;
+}
+@media only screen and (max-width: 992px) {
+  .design-offer {
+    padding-top: 0;
+  }
+}
+
+/* design our story */
+
+.design-our-story {
+  background-color: #e4e4e4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+}
+.design-our-story h1 {
+  font-size: 3rem !important;
+  text-align: center;
+}
+.design-our-story p {
+  line-height: 30px;
+  font-size: 19px;
+}
+
+.work-exp-cards {
+  background-color: rgb(46, 154, 135);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+.work-exp-cards .card-deck .card {
+  border-radius: 20px;
+}
+.work-exp-cards .card-deck .card img {
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+.work-exp-cards .card-deck .card h5 {
+  color: rgb(46, 154, 135);
+}
+.work-exp-cards .card-deck .card p {
+  color: grey;
+}
+.client-relation {
+  margin-top: 50px;
+}
+.client-relation h1 {
+  font-size: 3rem !important;
+  color: rgb(46, 154, 135);
+}
+.client-relation p {
+  line-height: 30px;
+  font-size: 18px;
+  color: grey;
+}
+
+.installation-guide {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.installation-guide h1 {
+  font-size: 2rem !important;
+  color: rgb(46, 154, 135);
+}
+.installation-guide p {
+  color: grey;
+  font-size: 15px;
+}
+.installation-guide video {
+  border-radius: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .installation-guide .left-col {
+    height: 201px;
+    margin-top: -87px;
+  }
+  .installation-guide .right-col {
+    margin-bottom: -50px;
+  }
+}
