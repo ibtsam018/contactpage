@@ -7,14 +7,6 @@ body {
     height: auto;
 }
 
-li.info {
-  background-color: greenyellow;
-  
-}
-div.messages {
-  background-color: greenyellow;
-}
-
 /* Top Header */
 .top-header .tab {
   padding-left: 20px;
@@ -161,7 +153,7 @@ div.messages {
 }
 
 .contact-banner {
-  background-image: url("../imgs/Compressed_Cambridge_Mussel_Main.jpg");
+  background-image: url("../images/imgs-Compressed_Cambridge_Mussel_Main.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -338,7 +330,7 @@ div.messages {
 /* signup */
 
 .signup-banner-bg {
-  background-image: url("../imgs/signup_banner.jpg");
+  background-image: url("../images/imgs-signup_banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
@@ -482,7 +474,7 @@ div.messages {
 }
 /* design service */
 .design-banner {
-  background-image: url("../imgs/Brand New Traditional kitchen in Mussel oak cambr.jpg");
+  background-image: url("../images/imgs-Brand New Traditional kitchen in Mussel oak cambr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
